@@ -40,14 +40,14 @@ st.sidebar.info("**Dataset:** Chicago Crime Data\n\n"
 
 # ── Route to page ─────────────────────────────────────────
 if selection == "🏠 Home & Overview":
-    exec(open("pages/1_home.py", encoding="utf-8").read())
+    exec(open("pages/1_Home.py", encoding="utf-8").read())
 elif selection == "📊 Exploratory Analysis":
-    exec(open("pages/2_eda.py").read())
+    exec(open("pages/2_EDA.py").read())
 elif selection == "🗺️ Geographic Clustering":
-    exec(open("pages/3_geo_clustering.py").read())
+    exec(open("pages/3_Geo_Clustering.py").read())
 elif selection == "⏰ Temporal Clustering":
-    exec(open("pages/4_temporal_clustering.py").read())
+    exec(open("pages/4_Temporal_Clustering.py").read())
 elif selection == "🔬 Dimensionality Reduction":
-    exec(open("pages/5_dim_reduction.py").read())
+    exec(open("pages/5_Dim_Reduction.py").read())
 elif selection == "📈 MLflow Experiment Tracker":
-    exec(open("pages/6_mlflow_tracker.py").read())
+    exec(open("pages/6_Mlflow_Tracker.py").read())
