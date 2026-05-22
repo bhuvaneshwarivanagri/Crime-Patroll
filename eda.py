@@ -21,7 +21,7 @@ import os
 
 # ─── CONFIG ───────────────────────────────────────────────
 CLEAN_PATH  = "data/cleaned_crimes.csv"
-CHARTS_DIR  = "data/eda_charts"
+CHARTS_DIR  = "data1/eda_charts"
 os.makedirs(CHARTS_DIR, exist_ok=True)
 # ──────────────────────────────────────────────────────────
 
