@@ -29,7 +29,7 @@ warnings.filterwarnings("ignore")
 
 FEATURES_PATH = "data/features.csv"
 META_PATH     = "data/metadata.csv"
-CHARTS_DIR    = "data/dim_reduction_charts"
+CHARTS_DIR    = "data1/dim_reduction_charts"
 os.makedirs(CHARTS_DIR, exist_ok=True)
 
 SAMPLE       = 8_000   # t-SNE is O(n²) — keep manageable
