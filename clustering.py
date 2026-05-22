@@ -34,7 +34,7 @@ warnings.filterwarnings("ignore")
 
 FEATURES_PATH = "data/features.csv"
 META_PATH     = "data/metadata.csv"
-CHARTS_DIR    = "data/cluster_charts"
+CHARTS_DIR    = "data1/cluster_charts"
 MODELS_DIR    = "models"
 os.makedirs(CHARTS_DIR, exist_ok=True)
 os.makedirs(MODELS_DIR, exist_ok=True)
