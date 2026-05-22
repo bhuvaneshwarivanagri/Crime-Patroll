@@ -20,8 +20,8 @@ import os, pickle
 CLEAN_PATH    = "data/cleaned_crimes.csv"
 FEATURES_PATH = "data/features.csv"      # main feature matrix
 META_PATH     = "data/metadata.csv"       # columns kept for display
-SCALER_PATH   = "data/scaler.pkl"
-ENCODER_PATH  = "data/encoders.pkl"
+SCALER_PATH   = "data1/scaler.pkl"
+ENCODER_PATH  = "data1/encoders.pkl"
 # ──────────────────────────────────────────────────────────
 
 DOW_ORDER = ["Monday", "Tuesday", "Wednesday",
